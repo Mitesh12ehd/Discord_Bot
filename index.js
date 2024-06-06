@@ -107,7 +107,7 @@ client.on("interactionCreate",(interaction) => {
 })
 
 client.login(
-    "MTI0NTk0NzA1ODU1MzA5NDIwNg.GOCCi3.e3RkMIzrnpWpPESVNCDD29H6IjXjDMhtf6tsi8"
+    process.env.DISCORD_TOKEN
 );
 
 app.listen(PORT,() => {
